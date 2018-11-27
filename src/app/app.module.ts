@@ -8,6 +8,7 @@ import { AgendaPage } from '../pages/agenda/agenda';
 import { NotificacoesPage } from '../pages/notificacoes/notificacoes';
 import { TarefasPage } from '../pages/tarefas/tarefas';
 import { ConfiguracoesPage } from '../pages/configuracoes/configuracoes';
+import { LoginPage } from '../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +20,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AgendaPage,
     NotificacoesPage,
     TarefasPage,
-    ConfiguracoesPage
+    ConfiguracoesPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AgendaPage,
     NotificacoesPage,
     TarefasPage,
-    ConfiguracoesPage
+    ConfiguracoesPage,
+    LoginPage
   ],
   providers: [
     StatusBar,

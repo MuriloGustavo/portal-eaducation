@@ -8,6 +8,7 @@ import { AgendaPage } from '../pages/agenda/agenda';
 import { NotificacoesPage } from '../pages/notificacoes/notificacoes';
 import { TarefasPage } from '../pages/tarefas/tarefas';
 import { ConfiguracoesPage } from '../pages/configuracoes/configuracoes';
+import { LoginPage } from '../pages/login/login';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,8 @@ export class MyApp {
       { title: 'Agenda', icon: 'calendar', component: AgendaPage},
       { title: 'Notificações', icon: 'notifications', component: NotificacoesPage},
       { title: 'Tarefas', icon: 'clipboard', component: TarefasPage},
-      { title: 'Configurações', icon: 'cog', component: ConfiguracoesPage}
+      { title: 'Configurações', icon: 'cog', component: ConfiguracoesPage},
+      { title: 'Sair', icon: 'exit', component: LoginPage},
     ];
 
   }
