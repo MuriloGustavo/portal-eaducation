@@ -12,6 +12,11 @@ import { LoginPage } from '../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { MuralPage } from '../pages/mural/mural';
+import { AtividadesPage } from '../pages/atividades/atividades';
+import { ForumPage } from '../pages/forum/forum';
+import { PessoasPage } from '../pages/pessoas/pessoas';
+import { TabsPage } from '../pages/tabs/tabs';
 
 @NgModule({
   declarations: [
@@ -21,11 +26,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NotificacoesPage,
     TarefasPage,
     ConfiguracoesPage,
-    LoginPage
+    LoginPage,
+    MuralPage,
+    AtividadesPage,
+    ForumPage,
+    PessoasPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,7 +45,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NotificacoesPage,
     TarefasPage,
     ConfiguracoesPage,
-    LoginPage
+    LoginPage,
+    MuralPage,
+    AtividadesPage,
+    ForumPage,
+    PessoasPage,
+    TabsPage
   ],
   providers: [
     StatusBar,

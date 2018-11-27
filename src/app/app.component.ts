@@ -10,13 +10,15 @@ import { TarefasPage } from '../pages/tarefas/tarefas';
 import { ConfiguracoesPage } from '../pages/configuracoes/configuracoes';
 import { LoginPage } from '../pages/login/login';
 
+import { TabsPage } from '../pages/tabs/tabs';
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = TurmasPage;
+  rootPage: any = NotificacoesPage;
 
   pages: Array<{title: string, icon: string, component: any}>;
 
@@ -31,6 +33,7 @@ export class MyApp {
       { title: 'Tarefas', icon: 'clipboard', component: TarefasPage},
       { title: 'Configurações', icon: 'cog', component: ConfiguracoesPage},
       { title: 'Sair', icon: 'exit', component: LoginPage},
+      { title: 'Tab', icon: 'albums', component: TabsPage}
     ];
 
   }
